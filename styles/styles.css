@@ -234,7 +234,7 @@ hr {
   line-height: 150%;
   color: var(--white);
   padding: 0;
-  margin-right: 145px;
+  margin-right: auto;
   position: relative;
 }
 .info_title::before {
@@ -268,6 +268,11 @@ hr {
   margin-bottom: 32px;
 }
 .info-card-item_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
   margin-right: 23px;
 }
 .list-item-info_title {
@@ -275,12 +280,14 @@ hr {
   color: var(--bg-red);
   margin-bottom: 16px;
   font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
 }
 .list-item-info_text {
   font-family: var(--font-family-text);
   font-weight: 600;
   font-size: 15px;
-  line-height: 35px;
+  line-height: 25px;
   color: var(--white);
   opacity: 0.8;
 }
