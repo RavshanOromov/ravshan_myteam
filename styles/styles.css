@@ -185,8 +185,6 @@ img {
 }
 .hero_title {
   font-family: var(--font-family-text);
-  width: 350px;
-  height: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -263,6 +261,7 @@ hr {
 .info-card-list_item {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 .info-card-list_item:not(:last-child) {
   margin-bottom: 32px;
